@@ -1,0 +1,143 @@
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+body {
+  height: 100vh;
+  font: 100% "Raleway", sans-serif;
+  color: #30323d;
+  background-color: #ffffff; }
+
+#landing h1 {
+  font-family: "Bad Script", cursive;
+  font-size: 4em;
+  -webkit-animation-name: fadeIn;
+  animation: 2.5s fadeIn; }
+#landing h4 {
+  font-size: 1em; }
+#landing ul {
+  padding-top: 30px; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+#work .scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  height: 100vh;
+  width: 100%; }
+  #work .scrolling-wrapper-flexbox .panel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #cbf7ed; }
+    #work .scrolling-wrapper-flexbox .panel:hover {
+      background-color: #ef233c;
+      border: 5px solid rgba(255, 255, 255, 0.5); }
+    #work .scrolling-wrapper-flexbox .panel a {
+      color: #ffffff; }
+  #work .scrolling-wrapper-flexbox #panel1 {
+    background-color: #ffffff;
+    border: 5px solid rgba(255, 255, 255, 0.5); }
+    #work .scrolling-wrapper-flexbox #panel1:hover {
+      background: linear-gradient(rgba(239, 35, 60, 0.45), rgba(239, 35, 60, 0.45)), url("images/1.jpg") no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      opacity: 0.5;
+      opacity: 0.5; }
+      #work .scrolling-wrapper-flexbox #panel1:hover h2 {
+        color: #ffffff; }
+  #work .scrolling-wrapper-flexbox #panel2 {
+    background-color: #ffffff;
+    border: 5px solid rgba(255, 255, 255, 0.5); }
+    #work .scrolling-wrapper-flexbox #panel2:hover {
+      background: linear-gradient(rgba(239, 35, 60, 0.45), rgba(239, 35, 60, 0.45)), url("images/2.jpg") no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      opacity: 0.5;
+      opacity: 0.5; }
+      #work .scrolling-wrapper-flexbox #panel2:hover h2 {
+        color: #ffffff; }
+  #work .scrolling-wrapper-flexbox #panel3 {
+    background-color: #ffffff;
+    border: 5px solid rgba(255, 255, 255, 0.5); }
+    #work .scrolling-wrapper-flexbox #panel3:hover {
+      background: linear-gradient(rgba(239, 35, 60, 0.45), rgba(239, 35, 60, 0.45)), url("images/3.jpg") no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      opacity: 0.5;
+      opacity: 0.5; }
+      #work .scrolling-wrapper-flexbox #panel3:hover h2 {
+        color: #ffffff; }
+
+.navigation-links {
+  padding-bottom: 2vh; }
+  .navigation-links li {
+    display: inline-block;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    margin: 0 2vh 3vh 2vh;
+    text-indent: 0;
+    text-align: center;
+    background-color: #cbf7ed;
+    transition-timing-function: ease-in-out;
+    transition: all 0.3s; }
+    .navigation-links li .fas {
+      font-size: 1.5em;
+      line-height: 7vh; }
+    .navigation-links li span a {
+      color: #30323d; }
+    .navigation-links li:hover {
+      transform: translateY(-15px) scale(1.2);
+      background-color: #ef233c; }
+      .navigation-links li:hover span a {
+        color: #ffffff; }
+    .navigation-links li span {
+      line-height: 7vh; }
+
+#about .cross-s {
+  padding-top: 20px; }
+#about h1 {
+  font-family: "Bad Script", cursive;
+  font-size: 3em; }
+#about h3 {
+  font-size: 1.3em; }
+#about h4 {
+  font-size: 1em; }
+
+/*# sourceMappingURL=main.css.map */
